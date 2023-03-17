@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Robert-Thaiyah/interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Git Repo](https://github.com/Robert-Thaiyah/interactive-rating-component)
+- Live Site URL: [Livesite Here](https://robert-thaiyah.github.io/interactive-rating-component/)
 
 ## My process
 
