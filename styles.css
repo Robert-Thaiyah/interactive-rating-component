@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+:root{
+    --orange:hsl(25, 97%, 53%);
+    --white:hsl(0, 0%, 100%);
+    --light-grey:hsl(217, 12%, 63%);
+    --dark-blue:hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --font-size:15px;
+    --dark-blue-mod:hsl(213, 19%, 25%);;
+}
+
+body{
+    background-color: var(--very-dark-blue);
+    font-family: 'Overpass', sans-serif;
+    line-height: 1.5;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    padding: 6rem 0;
+    
+}
+.section-center{
+    margin: 0 auto;
+    width: 20%;
+    padding: 3rem;
+    max-width: 1170px;
+    background-color: var(--dark-blue); 
+    border-radius: 20px;
+  
+}
+
+.image{
+    padding: 20px 18px;
+    background-color: var(--dark-blue-mod);
+    border-radius: 50%;
+}
+
+.text{
+    color: var(--white);
+}
+
+.rating-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    gap: 30px;
+}
+
+.rate-btn{
+    border-radius: 50%;
+    padding: 20px 22px;
+    background-color: var(--dark-blue-mod);
+    /* opacity: 0.2; */
+    color: var(--light-grey);
+    /* border: 2px solid var(--very-dark-blue); */
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+
+.btn {
+    width: 90%;
+    padding: 1rem;
+    border-radius: 30px;
+    background-color: var(--orange);
+    color: var(--white);
+    text-transform: uppercase;
+    border: none;
+}
+
+.rate-btn:hover{
+    background-color: var(--light-grey);
+    color: var(--white);
+}
+
+.rate-btn:active,
+.rate-btn:focus{
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+
+/* thank you css */
+
+.thank-you{
+    margin: 0 auto;
+    width: 20%;
+    padding: 2rem;
+    max-width: 1170px;
+    background-color: var(--dark-blue); 
+    border-radius: 20px;
+}
+
+.text-orange{
+    color: var(--orange);
+    background-color: var(--dark-blue-mod);
+   border-radius: 20px;
+    padding: 10px;
+}
+
+/* small utilities */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }  
+  .flex-1{
+    flex-direction: column;
+  }
+
